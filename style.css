@@ -1,0 +1,1229 @@
+#contenedor { 
+    width: 1200px;
+    height: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #918769;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Header*/
+#cabecera {
+    height: 200px;
+    background: url(img/fondo2.jpg);
+}
+
+.marca{
+    height: 80px;
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 400px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: rgba(140, 69, 28, 0.9);
+    padding: 15px;
+    border-radius: 40px;
+    border: 2px #fff solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.reserva {
+    height:40px;
+    width:150px;
+    background-color: #BFA75E;
+    float: right;
+    margin-right: 60px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.reserva:hover{
+    background-color: #8C5D23;
+}
+
+
+/*NAV*/
+
+#botonera {
+    height: 60px;
+    width: 600px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+#botonera ul, #redes ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+#botonera ul li a{
+    display: block;
+    text-decoration: none;
+    color:aliceblue;
+    background-color: #BFA75E;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 5px;
+    width: 150px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#botonera ul li a:hover{
+    background-color:#8C5D23;
+}
+
+#redes { 
+    height: 80px;
+    width: 200px;   
+    box-sizing: border-box;
+    position: absolute;
+}
+
+#redes ul{
+    position: absolute;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgba(240, 248, 255, 0.6); 
+    border-radius: 10px;
+}
+
+
+/*Secciones*/
+/*SECCION 1*/
+
+#seccion1 {
+    height: 700px;
+    background-image: url(img/fondo1.jpg);
+}
+
+#caja1_seccion1 {
+    width: 300px;
+    height: 50px;
+    margin-left: 25px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.textDestacado{
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+    background-color: #8C2034;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+
+#caja2_seccion1{
+    width: 800px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 25px;
+    float: left;
+    position: relative;
+    background-color: rgba(217, 137, 130, 0.8);
+    border: 2px #8C2034 solid;
+    border-radius: 15px 30px;
+    box-sizing: border-box;
+}
+
+#caja2-1{
+    width: 300px;
+    height: 220px;
+    float: right;
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.text-p{
+    padding-right: 300px;
+    color: #fff;
+}
+
+
+/*ESTILO H3 y P*/
+
+h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left:16px;
+    color: #8C2034;
+    text-transform:uppercase;
+}
+
+p{
+    margin:16px;
+    font-size: 18px;
+}
+
+
+/*TAMAÑO DE IMAGENES*/
+.tamImg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+#caja3_seccion1{
+    width: 350px;
+    height: 360px;
+    float: right;
+}
+
+
+
+.p-estilo{
+    color: aliceblue;
+    padding-top: 20px;
+    padding: 50px;
+    margin-top: 20px;
+    text-align:center;    
+    background: rgba(140, 32, 52, 0.8);
+    border-radius: 10px 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+/*CAJAS TAMAÑOS*/
+.caja-cont{
+    width: 270px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: rgba(228, 202, 207, 0.8);
+    border-radius: 20px;
+    float: left;
+    border: 5px #fff solid;
+    box-sizing: border-box;
+}
+
+
+.text-h3{
+    color: #8C2034;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/*Seccion 2*/ 
+#seccion2 {
+    height: 700px;
+    background-color:#A65D56;
+}
+
+
+#caja1_seccion2{
+    width: 300px;
+    height: 50px;
+    background-color: #260108;
+    margin-left: 325px;
+}
+
+
+#caja2_seccion2{
+    width: 905px;
+    height: 610px;
+    background-color:#BFA75E;
+    margin-left: 50px;
+    margin-top: 25px;
+    float: left;
+}
+
+#caja3_seccion2{
+    width: 215px;
+    height: 610px;
+    background: rgba(140, 32, 52, 0.8);
+    border: 3px solid #fff;
+    border-radius: 10px 50px;
+    margin-left: 970px;
+    margin-top: 5px;
+    padding:5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.caja-interna-sec2{
+    width: 195px;
+    height: 250px;
+    background-color: rgba(228, 202, 207, 0.8);
+    border-radius: 10px 50px;
+    float: left;   
+    margin:5px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+#caja3_seccion2 h3{
+    color: aliceblue;
+    font-size: 20px;
+    padding-top: 10px;
+    margin:10px;
+    
+}
+
+.text-interno {
+    font-size: 16px;
+    color: #fff;
+    margin: 2px;
+    padding-top: 10px;
+}
+
+
+
+.text-interno1{
+    color: #8C2034;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 3px;
+    
+}
+
+
+.text-interno2 {
+    font-size: 10px;
+    color: blue;
+    padding-top: 10px;
+}
+
+
+
+
+
+/*CAJAS TAMAÑOS*/
+
+.caja-cont2 {
+    width: 430px;
+    height: 260px;
+    margin-left: 15px;
+    float: left;
+    background-color: #8C2034;
+    margin-top: 30px;
+}
+
+/*CAJAS CON IMAGENES*/
+.caja-interna-cont2{
+    width: 174px;
+    height: 240px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #D98982;
+}
+
+
+
+
+
+
+
+
+
+
+/*Seccion 3*/
+#seccion3 {
+    height: 700px;
+    background-image: url(img/ruta.jpg);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#caja1_seccion3{
+    width: 300px;
+    height: 50px;
+    margin-left: 650px;
+}
+
+.caja-cont3{
+    width: 1100px;
+    height: 190px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgba(140, 32, 52, 0.8);
+    border: 2px #8C2034 solid;
+    border-radius: 15px 30px;
+}
+
+/*CAJAS INTERNAS SECCION 3*/
+#caja1-3, #caja2-3, #caja3-3 {
+    width:300px;
+    height: 190px;
+}
+
+#caja1-3, #caja3-3 {
+    float: left;
+    margin-right: 10px;
+}
+
+#caja2-3{
+    float: right;
+    
+}
+
+
+/*TAMAÑO DE IMAGENES SECCION 3*/
+.tamImg2{
+    width: 100%;
+    height: 190px;
+    border-radius: 15px 30px;
+}
+
+
+
+/*TAMAÑO DE TEXTOS */
+#seccion3 h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#seccion3 p, h6{
+    font-size: 14px;
+    padding: 1px;
+    margin: 2px;
+}
+
+#seccion3 h5, #seccion3 p, h6 {
+    color: aliceblue;
+    padding: 1px;
+    margin: 1px;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+
+
+#seccion3 a{
+    color: #fff;
+    float: right;
+    margin: 2px;
+    padding: 3px;
+}
+
+
+h6{
+    background-color:rgba(228, 202, 207, 0.8) ;
+    width: 120px;
+    border-radius: 5px;
+    padding: 2px;
+    color: #260108;
+    text-align: center;
+    display: flex;
+}
+
+
+
+/*Footer*/
+
+footer {
+    height: 200px;
+    background-image: url(img/footer.jpg);
+    padding-top: 40px;
+}
+
+#caja1-ft{
+    width: 300px;
+    height: 155px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(145, 143, 138, 0.7);
+}
+
+.tamImglogo{
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#caja2-1ft{
+    width: 150px;
+    height: 80px;
+    float: right;
+}
+
+h4{
+    margin-top: 5px;
+    font-size: 20px;
+    color:#fff;
+    text-align: center;
+    border: #fff 5px solid;
+}
+
+#caja3-ft, #caja4-ft, #caja5-ft {
+    width: 250px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+    float: left;
+    border-radius: 10px;
+    background-color: rgba(140, 32, 52, 0.8);
+    border: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+#caja3-ft{
+    height: 180px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.ft-1 a {
+    display: block; 
+    text-decoration: none;
+    color:aliceblue;
+    margin: 3px; 
+    padding-top:10px;
+}
+
+#caja4-ft{
+    height: 120px;
+    margin-top: 60px;
+}
+
+#caja4-ft ul li, #caja5-ft ul li{
+    color: #fff;
+    margin:5px;
+}
+
+#caja5-ft{
+    height: 80px;
+    margin-top: 100px;
+}
+
+
+/*INICIO DE Media de 600px a 1200px*/
+@media all and (min-width:600px) and (max-width:1200px) {
+    
+    #contenedor { 
+        width: 600px;
+        height: 2500px;
+    }
+    
+    
+    /*Header*/
+    .marca{
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+
+    .reserva {
+        margin-top: 8px;
+    }
+    
+
+    /*NAV*/
+    
+    #botonera {
+        height: 20px;
+        width: 350px;
+        margin-top: 12px;
+        margin-left: 75px;
+    }
+    
+    #botonera ul li a{
+        padding:8px;
+        margin: 3px;
+        font-size: 15px;
+
+    }
+    
+    #redes { 
+        height: 40px; 
+        width: 90px;
+    }
+
+
+
+/*Secciones*/
+    /*SECCION 1*/
+
+    
+#seccion1 {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+    #caja1_seccion1 {
+        width: 200px;
+    }
+    
+
+    #caja2_seccion1{
+        width: 300px;
+        margin-left: 10px;
+        height: 550px;
+    }
+    
+    #caja2-1{
+        float: left;
+        position: relative;
+        right: 10;
+        top:10;
+        margin-top: 20px;
+    }
+    
+
+    .text-p{
+        padding-right: 0;
+    }
+    
+    
+    /*ESTILO H3 y P*/
+    
+    h3,  p {
+        font-size: 15px;
+    }
+    
+
+    /*TAMAÑO DE IMAGENES*/
+    .tamImg{
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    #caja3_seccion1{
+        width: 290px;
+        height: 100px;
+        position: relative;
+        top:150px;
+        left: 300px;
+    }
+    
+    .p-estilo{
+        padding-top: 5px;
+        padding: 15px;
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    
+    /*CAJAS TAMAÑOS*/
+    .caja-cont{
+        width: 250px;
+        height: 220px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .text-h3{
+        font-size: 14px;
+    }
+    
+    /*Seccion 2*/ 
+    #seccion2 {
+        height: 1550px;
+    }
+    
+    #caja1_seccion2{
+        margin-left: 100px;
+    }
+    
+    #caja2_seccion2{
+        width: 500px;
+        height: 1150px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    #caja3_seccion2{
+        width: 580px;
+        height:290px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }    
+
+
+    .caja-interna-sec2{
+        height: 80px;
+        width: 550px;
+        margin-top:25px;
+        margin-left: 0px;
+        float: none;
+        display: flex;
+        flex-direction: row;
+        border-radius: 5px 10px;
+    }
+
+
+    
+    #caja3_seccion2 h3{
+        font-size: 15px;
+        padding-top: 5px;
+        margin:8px;
+        
+    }
+    
+    .text-interno {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+
+    .text-interno1 , .text-interno2 {
+        font-size: 12px;
+    }
+    
+
+    /*CAJAS TAMAÑOS*/
+    
+    .caja-cont2 {
+        margin-left: 35px;
+    }
+    
+    /*CAJAS CON IMAGENES*/
+    .caja-interna-cont2{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+
+
+    /*Seccion 3*/
+    #seccion3 {
+        height: 900px;
+    }
+
+    #caja1_seccion3{        
+        margin-left: 100px;
+    }
+
+    .caja-cont3{
+        width: 550px;
+        height: 340px;
+        margin: 10px;
+        margin-left: 18px;
+        margin-top: 30px;
+    }
+
+    /*CAJAS INTERNAS SECCION 3*/
+    #caja1-3, #caja2-3, #caja3-3 {
+        width:200px;
+        height: 180px;
+    }
+
+    
+/*TAMAÑO DE IMAGENES SECCION 3*/
+.tamImg2{
+    width: 95%;
+    height: 180px;
+    border-radius: 15px 30px;
+    padding: 1%;
+}
+
+/*TAMAÑO DE TEXTOS */
+#seccion3 h5 {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+#seccion3 p, h6{
+    font-size: 12px;
+}
+
+#seccion3 h5, #seccion3 p, h6 {
+    color: aliceblue;
+    padding: 1px;
+    margin: 1px;
+}
+
+
+#seccion3 a{
+    color: #fff;
+    float: right;
+    margin: 1px;
+    padding: 1%;
+}
+
+
+h6{
+    width: 100px;
+    padding: 1%;
+}
+
+
+
+
+    /*Footer*/
+    
+    footer {
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    #caja1-ft{
+        width: 290px;
+        height: 160px;
+        margin-left: 10px;
+    }
+    
+
+    #caja2-1ft{
+        width: 130px;
+        height: 70px;
+        float: right;
+    }
+
+
+    #caja3-ft, #caja4-ft, #caja5-ft {
+        width: 400px;
+        margin-left: 2px;
+        padding-bottom: 15px;
+    }
+
+    #caja3-ft{
+        height: 160px;
+        width: 150px;
+        padding: 2px;
+        padding-left: 2px;
+    }
+
+
+    .ft-1 a {
+        margin: 1px;
+        font-size: 13px;
+    }
+    
+
+    #caja4-ft{
+        height: 150px;
+        margin-top: 0;
+    }
+
+
+    #caja5-ft{
+        height: 100px;
+        width: 130px;
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+/*fin de media*/
+
+
+
+
+
+
+
+
+
+
+
+/*inicio @media -599px*/
+
+@media all and (max-width:599px) {
+    #contenedor { 
+        width: 100%;
+        height: auto;
+    }
+    
+    /*Header*/
+    #cabecera {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+    
+    .marca{
+        height: auto;
+        width: 70%;
+        padding-top: 50px;
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+
+    h1{
+        padding: 10px;
+        font-size: 13px;
+        margin-left: 20%;
+    }
+
+
+    .reserva {
+        height:auto;
+        width:20%;
+        margin: 5px;
+        margin-top: 20px;
+        float: left;
+        margin-bottom: 0px;
+    }
+
+    h2{
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    /*NAV*/
+    
+    #botonera {
+        height: auto;
+        width: 50%;
+        margin-left: 0;
+        margin-top: 10px;
+}
+
+    #botonera ul {
+        display: block;
+        height: auto;
+    }
+    
+    #botonera ul li a{
+        display: flex;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+        margin: 10px;
+        width: 50%;
+    }
+
+
+    ______________________________
+
+    #redes { 
+        height:auto;
+        width: 10%; 
+        position: none;
+    }
+    
+    #redes ul{
+        position: none;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #redes img {
+        height: 80%;
+        width: auto;
+    }
+
+
+    /*Secciones*/
+    /*SECCION 1*/
+    
+    #seccion1 {
+        height: auto;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    #caja1_seccion1 {
+        width:50%;
+        height: auto;
+    }
+
+
+    
+    #caja2_seccion1{
+        margin-left: 0;
+        width:100%;
+        height: auto;
+        
+    }
+
+    #caja1_seccion2{
+        width: 300px;
+        height: 50px;
+        margin-left: 325px;
+    }
+    
+    #caja2_seccion2{
+        width: 905px;
+        height: 610px;
+        background-color:#BFA75E;
+        margin-left: 50px;
+        margin-top: 25px;
+        float: left;
+    }
+
+    #caja2-1{
+        width: 100%;
+        height: auto;
+        float: none;
+        position: relative;
+    }
+    
+    .text-p{
+        padding-right: 0;
+        color: #fff;
+    }
+    
+    
+    /*ESTILO H3 y P*/
+    
+    h3 {
+        font-size: 18px;
+        margin-left:16px;
+        text-transform:uppercase;
+    }
+    
+    p{
+        margin:16px;
+        font-size: 15px;
+    }
+    
+    #caja3_seccion1{
+        width: 100%;
+        height: auto;
+    }
+    
+    .p-estilo{
+        padding: 10px;
+        text-align:center;   
+        font-size: 13px;
+    }
+    
+    /*CAJAS TAMAÑOS*/
+    .caja-cont{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        float: none;
+        border: 3px;
+    }
+    
+    
+    .text-h3{
+        font-size: 14px;
+    }
+    
+
+/*Seccion 2*/ 
+#seccion2 {
+    height: auto;
+    padding: 1% 0;
+}
+
+
+#caja1_seccion2{
+    width: 50%;
+    height: 50px;
+    margin-left: 0;
+    margin: 1%;
+}
+
+#caja2_seccion2{
+    width: 90%;
+    height:auto;
+    margin-left: 5%;
+    margin-top: 1%;
+    float: none;
+    padding: 1%;
+}
+
+#caja3_seccion2{
+    width: 90%;
+    height: auto;
+    margin-left:0;
+    margin-top: 0;
+    margin:5%;
+    padding-top: 5%;
+}
+
+.caja-interna-sec2{
+    width: 90%;
+    height: auto;
+    float: none;
+    margin-top: 0;
+    margin-left: 5%;
+}
+
+
+#caja3_seccion2 h3{
+    font-size: 14px;
+    padding-top: 1px;
+    margin:2px;
+}
+
+.text-interno, .text-interno2 {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.text-interno1{
+    font-size: 13px;    
+}
+
+
+/*CAJAS TAMAÑOS*/
+
+.caja-cont2 {
+    width: 96%;
+    height:160px;
+    float: none;
+    margin:2%;
+}
+
+/*CAJAS CON IMAGENES*/
+.caja-interna-cont2{
+    width: 50%;
+    height: 160px;
+    float: none;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+
+
+        /*Seccion 3*/
+    #seccion3 {
+        height: auto;
+        width: 100%;
+        padding: 1% 0;
+    }
+    
+    #caja1_seccion3{
+        width: 50%;
+        height: 40px;
+        margin-left: 2px;
+        margin-bottom: 5px;
+    }
+    
+    .caja-cont3{
+        width: 94%;
+        height: 70%;
+        margin-left: 2px;
+        padding: 2%;
+    }
+    
+
+    /*CAJAS INTERNAS SECCION 3*/
+    #caja1-3, #caja2-3, #caja3-3 {
+    width:50%;
+    height: 240px;
+}
+
+
+/*TAMAÑO DE IMAGENES SECCION 3*/
+.tamImg2{
+    width: 100%;
+    height: 180px;
+    padding-left: 2%;
+}
+
+/*TAMAÑO DE TEXTOS */
+#seccion3 h5 {
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+
+#seccion3 p, h6{
+    font-size: 11px;
+}
+
+h6{
+    width: 90px;
+    padding: 1%;
+}
+
+
+    /*Footer*/
+    footer {
+        height: 320px;
+        font-size: 10px;
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        padding-left:20%;
+
+    }
+    
+    #caja1-ft{
+        width: 45%;
+        height: auto;
+        margin-left: 2%;
+    }
+
+
+    .tamImglogo,  #caja2-1ft {
+        width: 50%; 
+        height: auto;       
+    }
+
+
+    h4{
+        margin-top: 1px;
+        font-size: 13px;
+    }
+
+
+    #caja3-ft, #caja4-ft, #caja5-ft {
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+        padding-bottom: 2px;
+        margin-left: 2%;
+    }
+
+
+    #caja3-ft{
+        height: auto;
+        margin-left: 2%;
+    }
+    
+    .ft-1 a {
+        margin: 2%; 
+        padding-top:1%;
+    }
+    
+    #caja4-ft, #caja5-ft{
+        height: auto;
+        margin-top: 0px;
+    }
+
+    #caja4-ft ul li, #caja5-ft ul li{
+        margin:1%;
+    }
+}
+
+
+/*fin de media -599px*/

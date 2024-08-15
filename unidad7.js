@@ -1,0 +1,8 @@
+var nombre = prompt (`¿Cuàl es tu nombre?`)
+alert(`Bienvenido/a `+ nombre +` a Turismo por Mendoza`)
+var email =  prompt ("¿Cuàl es tu e-mail?")
+var cantidad =  prompt ("¿Cuàntas personas viajan?")
+var edad =  prompt ("¿Son todos mayores de edad?")
+var auto =  prompt ("¿Les interesaria reservar un auto para trasladarse màs comodamente?")
+var consulta = prompt ("¿Còmo nos conociste?")
+var descuento = Math.round((parseInt(cantidad)*100)/70)
